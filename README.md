@@ -61,3 +61,7 @@ gemini extensions install https://github.com/ContentWriterco/Polish-KYB-MCP
 ```
 
 Gemini CLI asks for your Compabase MCP key during installation (create one at https://compabase.com/integrations?tab=mcp).
+
+## Setup guides
+
+Step-by-step setup guides for Claude, ChatGPT, Gemini, Grok, Le Chat, Perplexity, Cursor, VS Code and Claude Code: https://compabase.com/docs/mcp/connect/
