@@ -1,0 +1,22 @@
+{
+  "name": "polish-kyb",
+  "version": "1.0.0",
+  "description": "Know-your-business checks for Polish companies: registry data, owners, insolvency, sanctions and gazette notices.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "polish-kyb": {
+      "httpUrl": "https://compabase.com/api/mcp/kyb",
+      "headers": {
+        "Authorization": "Bearer ${COMPABASE_MCP}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Compabase MCP key",
+      "description": "Your MCP key (mcpk_...) from https://compabase.com/integrations?tab=mcp",
+      "envVar": "COMPABASE_MCP",
+      "sensitive": true
+    }
+  ]
+}

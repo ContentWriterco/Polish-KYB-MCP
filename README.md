@@ -53,3 +53,11 @@ Sign in with your Compabase account (OAuth) in clients that support it, or send 
 Part of the [Compabase](https://compabase.com/docs/mcp/) MCP family. Full Compabase MCP (all Polish company data tools): https://compabase.com/api/mcp.
 
 Questions: contact@compabase.com
+
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/ContentWriterco/Polish-KYB-MCP
+```
+
+Gemini CLI asks for your Compabase MCP key during installation (create one at https://compabase.com/integrations?tab=mcp).
