@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ContentWriterco/polish-kyb",
+  "title": "Polish KYB",
+  "description": "Know-your-business checks for Polish companies: KRS, owners, insolvency, sanctions, gazette notices.",
+  "version": "1.0.0",
+  "websiteUrl": "https://compabase.com/due-diligence",
+  "icons": [
+    {
+      "src": "https://compabase.com/logo.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ContentWriterco/Polish-KYB-MCP",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compabase.com/api/mcp/kyb",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: Bearer mcpk_… key from https://compabase.com/integrations?tab=mcp. Clients with OAuth support can sign in instead.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string",
+          "placeholder": "Bearer mcpk_YOUR_KEY_HERE"
+        }
+      ]
+    }
+  ]
+}
